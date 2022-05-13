@@ -1,0 +1,28 @@
+.wrapper {
+  width: 100%;
+  height: 60px;
+  box-shadow: 8px 0px 4px rgb(212, 212, 212);
+
+  .wrapperContent {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 24px;
+    padding-right: 24px;
+    .avatarWrapper {
+      display: flex;
+      height: 84%;
+      justify-content: flex-end;
+      align-items: center;
+      border-radius: 6px;
+      padding-right: 6px;
+      overflow: hidden;
+      cursor: pointer;
+      transition: 0.3s;
+      &:hover {
+        box-shadow: 1px 4px 14px rgba(255, 163, 127, 0.3);
+      }
+    }
+  }
+}

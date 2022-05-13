@@ -1,0 +1,26 @@
+.wrapper {
+  padding: 16px 19px 23px 9px;
+  font-size: 14px;
+  box-shadow: 1px 4px 22px #2d2d2d3d;
+
+  .text {
+    display: flex;
+    margin-bottom: 14px;
+    svg {
+      width: 32px;
+    }
+  }
+  .btnCancel {
+    padding: 0 12px;
+    height: 26px;
+    border-radius: 2px;
+    margin-right: 8px;
+    font-size: 12px;
+  }
+  .btnOk {
+    padding: 0 12px;
+    height: 26px;
+    border-radius: 2px;
+    font-size: 12px;
+  }
+}

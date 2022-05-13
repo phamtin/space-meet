@@ -1,0 +1,41 @@
+.signinWrapper {
+  width: 100%;
+  .contentWrapper {
+    display: flex;
+    width: 100%;
+    .left {
+      width: 50%;
+      height: 100vh;
+      background-image: url('/singinBG.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    .right {
+      width: 50%;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: rgb(244, 244, 255);
+      h2 {
+        margin-bottom: 10px;
+      }
+      .rightWrapper {
+        height: auto;
+        margin-top: -55px;
+        background-color: #fff;
+        padding: 50px;
+        padding-bottom: 60px;
+        border-radius: 12px;
+        box-shadow: 1px 2px 18px $gray-4;
+      }
+      .box {
+        width: 340px;
+      }
+    }
+    label {
+      font-size: 14px;
+      margin-bottom: 4px;
+    }
+  }
+}
